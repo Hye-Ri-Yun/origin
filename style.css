@@ -1,0 +1,65 @@
+/*스타일제거*/
+body,header,section,nav,ul,li,a,p{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+.f_l{float:left}
+.f_r{float:right}
+
+body{
+    width:100%;
+}
+header{
+    width:15%;
+    min-width:100px;
+    background:#fff;
+    border-right:1px #333 solid;
+    position:fixed;
+}
+nav{
+    width:10%;
+    height:100%;
+    position:absolute;
+    background:#fff;
+    display:none;
+}
+section{
+    width:87%;
+}
+.wd01{
+    width:100%;
+}
+.wd02{
+    width:70%;
+    border:2px #fff solid;
+}
+.wd03{
+    width:30%;
+    border:2px #fff solid;
+    background-color:#EEEEEE;
+}
+.bg01{
+    background-color:#AED581;
+    border-bottom:2px #fff solid;
+}
+.bg02{
+    background-color:#4FC3F7;
+}
+.bg05{
+    background-color:#FFF176;
+}
+.bg06{
+    background-color:#E57373;
+    border-top:2px #fff solid;
+}
